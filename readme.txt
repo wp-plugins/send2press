@@ -100,7 +100,7 @@ know if you need more to properly skin it.
 
 **[Download now!](http://downloads.wordpress.org/plugin/send2press.zip)**
 
-[Support](http://www.kolbu.com/2008/12/01/send2press-wordpress-pluginsend2press-wordpress-plugin/)
+[Support](http://www.kolbu.com/2008/12/01/send2press-wordpress-plugin/)
 
 [Donate](http://www.kolbu.com/donations/)
 
