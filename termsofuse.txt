@@ -1,0 +1,51 @@
+
+TERMS OF USE
+
+Send2Press® Newswire Feeds
+http://feeds.send2press.com
+
+
+Overview 
+Use of our news feeds in any format - whether RSS, FeedBuilder JavaScript, WordPress plug-in, DHTML, RSS full-text or summary feeds, or Flash formats - is subject to the Terms of Use found on this page. For question about these terms, please feel free to contact us. These terms may be updated periodically, and should be reviewed each calendar quarter. Continued use of the feeds upon update of terms will constitute an agreement to the updated terms. 
+
+Your use of our feeds in any way constitutes your agreement to these service terms. If you cannot abide by these terms, you may not use our feeds. 
+
+Fees 
+There are no fees to use our content, provided you adhere to the Terms of Use found on this page. 
+
+Notification 
+To ensure we keep your originating I.P. address "authorized," you MUST contact us using the form found on this site to let us know if you're using our FeedBuilder JavaScript, or full text/summary RSS feeds, on your site and where. We do not charge a fee for use of our news feeds, but this notification process is mandatory in lieu of a fee. We request that you inform us of any use of the feeds using our free WordPress plug-in. 
+
+Prohibited use 
+Creating a "splog" (spam blog) site using our feeds is absolutely forbidden. 
+
+Non Compete Requirement
+You may not use our content on any website, blog, aggregation portal, or similar medium, which sells or promotes press release or newswire services (such as press release writing, news distribution, online news posting, etc.). This is considered a "non compete" requirement. 
+
+You may NOT take our content, then remove our identifier (SEND2PRESS NEWSWIRE) and replace that text with the name of another newswire service (YOUR SERVICE), which is mis-leading, and mis-use of our content and data streams. Your I.P. will be blocked and legal action may be taken if your company is located in North America or the U.K. All content which originates with Send2Press is protected under U.S. and international copyright conventions. 
+
+Attribution
+If you use our full-text content verbatim (specifically, the news content without modification of the actual news text) using a product like Autoblogger Pro, or to import into your aggregation portal or document repository, or other content portal, then you MUST retain our attribution ("Send2Press Newswire") in some form, which clearly identifies that we originated the content. 
+
+WordPress Plug-in Modification
+Exclusive of the GPL 2 license, you may not modify this plug-in to mix feeds from Send2Press with any of our competitor’s news feeds which would mis-represent the “source” of the content in violation of the terms of use of our content feeds; further if the plug-in is modified in any way under the GPL 2 or higher licensing, it MUST be re-named something other than “Send2Press.” Please be aware that Send2Press® is a U.S. registered trademark and service mark of Neotrope® - it is NOT a "generic term" for our news feed plug-in and all rights are reserved.
+
+System resources 
+Please remember that your use of any of our feed mechanisms utilizes our system resources (web server memory, bandwidth, etc.) and you must use common sense when making any settings on how often to connect (or ping, grab, capture, or scrape) to our content streams. Specifically, if you use any kind of scraping software like Autoblogger, RSS2HTML, or other application, you must set the minimum time to pull content to 120 minutes, and if the option exists set the software to NOT check for content overnight or on weekends. Content is not updated in our system between 10pm PST and 3am EST Monday through Friday, or on weekends (Sat. and Sun.). Setting any application to ping our system by the minute, or too often will result in I.P. blocking. For certain kinds of content repositories, scraping our content once per day may be appropriate. 
+
+Image Archiving and Streaming
+If you use a scraping mechanism like Autoblogger Pro or other, then you MUST set your application to capture and archive images found in the HTML of our full-text RSS 2.0 streams on your own server. You may NOT stream graphics "live" from our server for stories which live on your pages (meaning, when a page is viewed on your site, the graphic is streamed from our site). If you are unable to host your own images, then you should strip HTML (images, and URL links) from the content when you scrape it. 
+
+Fair use 
+Note that if you compose your own articles based on our press releases (news content) which are substantially different from our original story, then you are not required to include our attribution ("Send2Press Newswire"), under the fair use copyright provisions. However, if you simply "clone" our content full-text without modification of the actual paragraphical content, you are required to retain our wire service attribution to make it absolutely clear that we, and not you, originated this content. 
+
+Warranty 
+No warranty is made for your use of any of our feeds, plug-ins or content. Use of any such material is done at your sole risk, and Neotrope will be held harmless for any and all claims made against such use. We reserve the right to discontinue any feed, or access to feeds or systems at any time without prior notice, or compensation of any kind. 
+
+Who are we? 
+Send2Press® Newswire is a first-class news service which originates its own business, entertainment, and technology news; we do not copy news from other sources and we turn away content we consider to be nothing more than "news spam." This means the news which appears on your site when using our "feeds" is of very high quality, edited by professional journalists and public relations (PR) experts. 
+
+Send2Press is a unit of Neotrope®, an entertainment publishing, PR and content development company, established January of 1983. To learn more about our paid services, see: www.Send2Press.com.
+
+
+Neotrope and Send2Press are U.S. registered trademarks and service marks of Neotrope, Redondo Beach / Torrance, CA USA. Copr. © 1983-2009 Neotrope.
