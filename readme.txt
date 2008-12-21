@@ -3,7 +3,7 @@ Contributors: Olav Kolbu
 Donate link: http://www.kolbu.com/donations/
 Tags: widget, plugin, send2press, news, send2press news, rss, feed
 Requires at least: 2.3.3
-Tested up to: 2.6.5
+Tested up to: 2.7
 Stable tag: trunk
 
 Displays news items from selectable Send2Press RSS feeds, 
@@ -128,7 +128,7 @@ fix. :-)
 == Changelog ==
 
 1. 2.3 Initial release, based on my CNN News and Google News plugins v2.3. Numbering scheme to be able to keep all similar plugins in sync.
-
+1. 2.4 Fixed WP 2.7 compat problems
 
 Known bugs:
   - None at this time

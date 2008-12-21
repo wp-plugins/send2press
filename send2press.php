@@ -2,7 +2,7 @@
 /*
 Plugin Name: Send2Press
 Description: Displays a selectable Send2Press RSS feed, inline, widget or in theme.
-Version:     2.3
+Version:     2.4
 Author:      Olav Kolbu
 Author URI:  http://www.kolbu.com/
 Plugin URI:  http://wordpress.org/extend/plugins/send2press/
@@ -195,6 +195,11 @@ if ( ! class_exists('send2press_plugin')) {
         // Settings -> Send2Press
         function plugin_options() {
 
+           if (get_bloginfo('version') >= '2.7') {
+               $manage_page = 'tools.php';
+            } else {
+               $manage_page = 'edit.php';
+            }
             print <<<EOT
             <div class="wrap">
             <h2>Send2Press&reg; Newswire</h2>
@@ -213,7 +218,7 @@ if ( ! class_exists('send2press_plugin')) {
                <li><b>[send2press name="feedname"]</b></li></ul><p>
                To insert in a theme call <b>do_action('send2press');</b> or 
                alternatively <b>do_action('send2press', 'feedname');</b><p>
-               To manage feeds, go to <a href="edit.php?page=send2press/send2press.php">Manage -> Send2Press</a>, where you will also find more information.<p>
+               To manage feeds, go to <a href="$manage_page?page=send2press/send2press.php">Manage -> Send2Press</a>, where you will also find more information.<p>
                <a href="http://www.kolbu.com/donations/">Donations Page</a>... ;-)<p>
                <a href="http://www.kolbu.com/2008/10/13/send2press-plugin/">Widget Home Page</a>, leave a comment if you have questions etc.<p>
 
@@ -359,6 +364,13 @@ EOT;
                 print '</th>';
                 print '   </tr>';
                 print '  </thead>';
+
+                if (get_bloginfo('version') >= '2.7') {
+                    $manage_page = 'tools.php';
+                } else {
+                    $manage_page = 'edit.php';
+                }
+
                 if ( $alloptions['feeds'] || $newfeed ) {
                     $i = 0;
 
@@ -401,10 +413,10 @@ EOT;
                             print "<td>".$flipnewstypes[$val['newstype']]."</td>";
                             print "<td>".$flipdesctypes[$val['desctype']]."</td>";
                             print "<td>".$val['numnews']."</td>";
-                            print "<td><a href=\"edit.php?page=send2press/send2press.php&amp;mode=edit&amp;id=$key\" class=\"edit\">";
+                            print "<td><a href=\"$manage_page?page=send2press/send2press.php&amp;mode=edit&amp;id=$key\" class=\"edit\">";
                             print __('Edit','send2press');
                             print "</a></td>\n";
-                            print "<td><a href=\"edit.php?page=send2press/send2press.php&amp;mode=delete&amp;id=$key\" class=\"delete\" onclick=\"javascript:check=confirm( '".__("This feed entry will be erased. Delete?",'send2press')."');if(check==false) return false;\">";
+                            print "<td><a href=\"$manage_page?page=send2press/send2press.php&amp;mode=delete&amp;id=$key\" class=\"delete\" onclick=\"javascript:check=confirm( '".__("This feed entry will be erased. Delete?",'send2press')."');if(check==false) return false;\">";
                             print __('Delete', 'send2press');
                             print "</a></td>\n";
                         }
@@ -439,7 +451,7 @@ EOT;
                         print "<input type=\"hidden\" id=\"send2press-submit\" name=\"send2press-submit\" value=\"1\" />";
                         print "</form>";
                     } else {
-                        print "</tr><tr><td colspan=\"12\"><a href=\"edit.php?page=send2press/send2press.php&amp;mode=newfeed\" class=\"newfeed\">";
+                        print "</tr><tr><td colspan=\"12\"><a href=\"$manage_page?page=send2press/send2press.php&amp;mode=newfeed\" class=\"newfeed\">";
                         print __('Add extra feed','send2press');
                         print "</a></td></tr>";
 
@@ -448,7 +460,7 @@ EOT;
                     print '<tr><td colspan="12" align="center"><b>';
                     print __('No feeds found(!)','send2press');
                     print '</b></td></tr>';
-                    print "</tr><tr><td colspan=\"12\"><a href=\"edit.php?page=send2press/send2press.php&amp;mode=newfeed\" class=\"newfeed\">";
+                    print "</tr><tr><td colspan=\"12\"><a href=\"$manage_page?page=send2press/send2press.php&amp;mode=newfeed\" class=\"newfeed\">";
                     print __('Add feed','send2press');
                     print "</a></td></tr>";
                 }
